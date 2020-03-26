@@ -1,0 +1,49 @@
+Language model created by QuickLM on Wed Mar 25 22:12:41 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=12
+ngram 3=6
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.5563 DO-YOU-KNOW-ME -0.2218
+-1.5563 DO-YOU-LIKE-DOING-HOMEWORK -0.2218
+-1.5563 GOODBYE -0.2218
+-1.5563 WHAT-CAN-YOU-DO -0.2218
+-1.5563 WHERE-ARE-YOU-FROM -0.2218
+-1.5563 WHO-ARE-YOU -0.2218
+
+\2-grams:
+-1.0792 <s> DO-YOU-KNOW-ME 0.0000
+-1.0792 <s> DO-YOU-LIKE-DOING-HOMEWORK 0.0000
+-1.0792 <s> GOODBYE 0.0000
+-1.0792 <s> WHAT-CAN-YOU-DO 0.0000
+-1.0792 <s> WHERE-ARE-YOU-FROM 0.0000
+-1.0792 <s> WHO-ARE-YOU 0.0000
+-0.3010 DO-YOU-KNOW-ME </s> -0.3010
+-0.3010 DO-YOU-LIKE-DOING-HOMEWORK </s> -0.3010
+-0.3010 GOODBYE </s> -0.3010
+-0.3010 WHAT-CAN-YOU-DO </s> -0.3010
+-0.3010 WHERE-ARE-YOU-FROM </s> -0.3010
+-0.3010 WHO-ARE-YOU </s> -0.3010
+
+\3-grams:
+-0.3010 <s> DO-YOU-KNOW-ME </s>
+-0.3010 <s> DO-YOU-LIKE-DOING-HOMEWORK </s>
+-0.3010 <s> GOODBYE </s>
+-0.3010 <s> WHAT-CAN-YOU-DO </s>
+-0.3010 <s> WHERE-ARE-YOU-FROM </s>
+-0.3010 <s> WHO-ARE-YOU </s>
+
+\end\
